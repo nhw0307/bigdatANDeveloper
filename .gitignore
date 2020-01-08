@@ -1,6 +1,6 @@
 .gitignore
 .idea/vcs.xml
-target
+target/
 *.log
 
 
