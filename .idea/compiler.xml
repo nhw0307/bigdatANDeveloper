@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nhwspringbootstarter" />
+        <module name="nhw.springbootstarter" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nhw.springbootstarter" options="-parameters" />
       <module name="nhwspringbootstarter" options="-parameters" />
     </option>
   </component>
